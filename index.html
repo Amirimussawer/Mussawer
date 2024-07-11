@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Bunte Webseite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6f61, #de68a1);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #ff6f61;
+            border-radius: 4px;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: linear-gradient(90deg, #de68a1, #ff6f61);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            background-color: #ffd700;
+            padding: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner bunten Webseite</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Über uns</a>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Dies ist die Startseite meiner Webseite. Hier finden Sie Informationen über uns und unsere <span class="highlight">Dienstleistungen</span>.</p>
+            <img src="beispielbild.jpg" alt="Beispielbild">
+        </section>
+        <section id="about">
+            <h2>Über uns</h2>
+            <p>Wir sind ein Unternehmen, das sich auf <span class="highlight">qualitativ hochwertige Dienstleistungen</span> spezialisiert hat.</p>
+        </section>
+        <section id="services">
+            <h2>Dienstleistungen</h2>
+            <p>Unsere Dienstleistungen umfassen <span class="highlight">Webentwicklung</span>, <span class="highlight">Grafikdesign</span> und <span class="highlight">Online-Marketing</span>.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Sie können uns per E-Mail unter <a href="mailto:info@beispiel.de">info@beispiel.de</a> erreichen.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meine Bunte Webseite</p>
+    </footer>
+</body>
+</html>
